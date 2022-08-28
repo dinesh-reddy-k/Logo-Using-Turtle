@@ -1,0 +1,32 @@
+from turtle import *
+ht()
+speed(10)
+def f(x,y,a=0):
+    penup()
+    goto(x,y)
+    pendown()
+    seth(a)
+
+bgcolor('black')
+f(0,-200)
+color('white')
+begin_fill()
+circle(200)
+end_fill()
+f(-100,-100)
+color('red')
+begin_fill()
+for i in range(2):
+    fd(200)
+    circle(50,90)
+    fd(100)
+    circle(50,90)
+end_fill()
+f(-28.86,0,90)
+color('white')
+begin_fill()
+fd(50)
+for i in range(3):
+    right(120)
+    fd(100)
+end_fill()
