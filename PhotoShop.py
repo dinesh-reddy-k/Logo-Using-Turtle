@@ -1,0 +1,18 @@
+from turtle import *
+penup()
+goto(-200,-200)
+pendown()
+begin_fill()
+fillcolor('#030547')
+for i in range(2):
+    fd(400)
+    circle(50,90)
+    fd(300)
+    circle(50,90)
+end_fill()
+penup()
+goto(-200,-180)
+pendown()
+color('#1E8BDB')
+write('Ps',font=('italic',250,'bold'))
+ht()

@@ -1,0 +1,31 @@
+from turtle import *
+speed(10)
+#To for the backround color of telegram logo
+goto(0,-240)
+begin_fill()
+color('#0088cc')
+circle(230)
+end_fill()
+
+#To form the inside message symbol to be formed
+color('#fff')
+penup()
+goto(50,-140)
+pendown()
+begin_fill()
+seth(150)
+fd(120)
+circle(-10,105)
+fd(120)
+circle(2,170)
+fd(130)
+circle(-10,55)
+fd(85)
+circle(-10,140)
+fd(270)
+circle(-15,120)
+fd(210)
+circle(-10,140)
+end_fill()
+ht()
+
